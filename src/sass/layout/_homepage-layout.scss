@@ -1,0 +1,17 @@
+.body-container {
+  background-color: var(--color-primary--light);
+  padding: 1.5rem;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 4.5rem 1fr 4.5rem;
+  grid-gap: 1rem;
+  // max-width: 150rem;
+  // margin: 0 auto;
+
+  @include respond(tab-port) {
+    padding: 0;
+    grid-template-columns: 3rem 1fr 3rem;
+    grid-gap: 0.5rem;
+  }
+}

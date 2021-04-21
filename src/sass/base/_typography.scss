@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Miama";
+  src: url("../fonts/Miama.ttf");
+}
+
+::selection {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.4rem;
+
+  @include respond(phone) {
+    font-size: 2.2rem;
+  }
+}
+
+h3 {
+  font-size: 2rem;
+
+  @include respond(phone) {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,35 @@
+.header__component--profile-pic {
+  background-image: url("../img/Bermuda-Traingle.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include respond(phone) {
+    background-image: none;
+    grid-column: 1 / span 2;
+    padding: 1.5rem 0;
+  }
+
+  img {
+    width: 25rem;
+    height: 25rem;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.5rem solid var(--color-white);
+    padding: 0.3rem;
+    animation: animateBorder 8s infinite;
+
+    @include respond(tab-land) {
+      width: 20rem;
+      height: 20rem;
+      border-width: 0.3rem;
+    }
+
+    @include respond(phone) {
+      width: 17rem;
+      height: 17rem;
+      border-width: 0.2rem;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.header__component--skills {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  background-image: url("../img/Sun-Tornado.svg");
+
+  @include respond(tab-land) {
+    padding: 2rem;
+  }
+
+  @include respond(phone) {
+    display: none;
+  }
+
+  .skill-box {
+    background-color: var(--color-primary);
+    text-align: center;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    transition: all 1s;
+    width: auto;
+
+    opacity: 0;
+
+    @include respond(tab-land) {
+    }
+
+    svg {
+      width: 15rem;
+      height: 15rem;
+
+      @include respond(tab-land) {
+        width: 10rem;
+        height: 10rem;
+      }
+    }
+  }
+
+  .header__skill-box--active {
+    opacity: 1;
+    transform: scale(0.95);
+    backface-visibility: hidden;
+  }
+}

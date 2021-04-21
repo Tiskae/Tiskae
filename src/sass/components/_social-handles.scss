@@ -1,0 +1,49 @@
+.social-handles {
+  background-color: var(--color-primary);
+  display: grid;
+  justify-items: center;
+
+  @include respond(tab-port) {
+    background-color: transparent;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    height: 100%;
+    width: 0.5rem;
+    background-color: var(--color-primary--light);
+
+    @include respond(tab-port) {
+      background-color: var(--color-primary);
+    }
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .github {
+    fill: var(--color-white);
+  }
+
+  svg {
+    height: 2.5rem;
+    width: 2.5rem;
+    transition: all 0.1s;
+
+    @include respond(tab-port) {
+      height: 2rem;
+      width: 2rem;
+    }
+
+    &:hover {
+      opacity: 0.7;
+      animation: rebuild 0.2s;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+///////////// Fade-out
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+@include respond(phone) {
+  @keyframes fadeOut {
+    100% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+}
+
+//////////// Fade-in-out
+
+@keyframes fadeInOut {
+  50% {
+    transform: scale(0);
+  }
+}
+
+///////////// Animate-border ( only in the header profile picture )
+
+@keyframes animateBorder {
+  0% {
+    border-color: var(--color-secondary);
+    border-top-color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+  }
+  50% {
+    border-color: var(--color-secondary);
+    border-right-color: var(--color-primary);
+    border-left-color: var(--color-primary);
+  }
+  100% {
+    border-color: var(--color-secondary);
+    border-top-color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+  }
+}
+
+///////////////// Animate-text-color
+
+@keyframes animateColor {
+  0% {
+    color: var(--color-white);
+  }
+  50% {
+    color: var(--color-secondary);
+  }
+  100% {
+    color: var(--color-white);
+  }
+}
+
+////////////// Rebuild ( animation for buttons hover state )
+
+@keyframes rebuild {
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,59 @@
+.skill-box {
+  background-color: var(--color-primary--light);
+  padding: 3rem;
+  display: grid;
+  justify-items: center;
+  grid-gap: 1rem;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  border: 0.15rem solid var(--color-primary--light);
+  transition: all 0.2s;
+  width: 19rem;
+
+  @include respond(tab-land) {
+    width: 15rem;
+    padding: 2rem;
+    grid-gap: 0.5rem;
+    border-top-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+  }
+
+  @include respond(tab-port) {
+    background-color: var(--color-primary);
+    width: 13rem;
+    padding: 2rem;
+    grid-gap: 0.5rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+
+  &:hover {
+    transform: translateY(-1rem);
+    border-color: var(--color-secondary);
+  }
+
+  svg {
+    height: 12rem;
+    width: 12rem;
+
+    @include respond(tab-land) {
+      height: 10rem;
+      width: 10rem;
+    }
+
+    @include respond(tab-port) {
+      height: 5rem;
+      width: 5rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+    text-align: center;
+
+    @include respond(tab-port) {
+      font-size: 1rem;
+    }
+  }
+}

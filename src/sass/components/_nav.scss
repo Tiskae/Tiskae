@@ -1,0 +1,66 @@
+.navigation {
+  background-color: var(--color-primary);
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 3rem;
+
+  @include respond(tab-port) {
+    background-color: transparent;
+    width: 3rem;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    height: 100%;
+    width: 0.5rem;
+    background-color: var(--color-primary--light);
+
+    @include respond(tab-port) {
+      background-color: var(--color-primary);
+    }
+  }
+
+  ul {
+    height: 70vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+
+    @include respond(tab-port) {
+      width: 3rem;
+    }
+  }
+
+  li {
+    transform: rotate(90deg);
+
+    a {
+      text-decoration: none;
+      color: #446f94;
+      font-size: 1.5rem;
+      line-height: 1;
+      text-transform: uppercase;
+      transition: all 0.2s;
+
+      @include respond(tab-port) {
+        font-size: 1.2rem;
+      }
+
+      &:hover {
+        color: var(--color-secondary);
+      }
+    }
+
+    a.active {
+      color: var(--color-secondary);
+    }
+  }
+}
