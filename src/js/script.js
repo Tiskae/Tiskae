@@ -57,7 +57,6 @@ const switchActiveNavTab = function (els) {
     tab.classList.remove("active");
   }
 
-  console.log([...navTabs].every((tab) => !tab.classList.contains("active")));
 };
 
 // Sections observer
