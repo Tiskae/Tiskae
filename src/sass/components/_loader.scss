@@ -1,68 +1,68 @@
 .loader {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  background-color: var(--color-primary);
-  background-image: url("../img/Rose-Petals.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  @include gridCenter;
-  align-items: center;
-  animation: fadeOut 1s 3s forwards;
-  // display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--color-primary);
+    background-image: url("../img/Rose-Petals.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include gridCenter;
+    align-items: center;
+    animation: fadeOut 1s 3s forwards;
+    // display: none;
 
-  &__box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0.5rem;
-    transform: rotate(45deg);
-  }
-
-  &__box-item {
-    width: 7vw;
-    height: 7vw;
-    min-width: 4rem;
-    min-height: 4rem;
-    background-color: var(--color-secondary);
-    animation: fadeInOut 1s infinite;
-
-    &--1 {
-      animation-delay: 0.5s;
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.5rem;
+        transform: rotate(45deg);
     }
 
-    &--2 {
-      animation-delay: 0.4s;
-    }
+    &__box-item {
+        width: 7vw;
+        height: 7vw;
+        min-width: 4rem;
+        min-height: 4rem;
+        background-color: var(--color-secondary);
+        animation: fadeInOut 1s infinite;
 
-    &--3 {
-      animation-delay: 0.3s;
-    }
+        &--1 {
+            animation-delay: 0.5s;
+        }
 
-    &--4 {
-      animation-delay: 0.4s;
-    }
+        &--2 {
+            animation-delay: 0.4s;
+        }
 
-    &--5 {
-      animation-delay: 0.3s;
-    }
+        &--3 {
+            animation-delay: 0.3s;
+        }
 
-    &--6 {
-      animation-delay: 0.2s;
-    }
+        &--4 {
+            animation-delay: 0.4s;
+        }
 
-    &--7 {
-      animation-delay: 0.3s;
-    }
+        &--5 {
+            animation-delay: 0.3s;
+        }
 
-    &--8 {
-      animation-delay: 0.2s;
-    }
+        &--6 {
+            animation-delay: 0.2s;
+        }
 
-    &--9 {
-      animation-delay: 0.1s;
+        &--7 {
+            animation-delay: 0.3s;
+        }
+
+        &--8 {
+            animation-delay: 0.2s;
+        }
+
+        &--9 {
+            animation-delay: 0.1s;
+        }
     }
-  }
 }
