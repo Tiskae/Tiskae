@@ -2,7 +2,7 @@
 
 ### About me
 
-- I'm a frontend developer with expertise in Reactjs
+- I'm a frontend developer with expertise in React.js
 - I am currently learning backend technologies with Node, Express and MongoDB (MERN)
 - I have strong affection❤ for cybersecurity and ethical hacking
 - I'm open to collaborate on any project as well as open source
