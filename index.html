@@ -96,6 +96,15 @@
           <div class="skill-box header__skill-box">
             <div class="skill__icon-box">
               <svg>
+                <use xlink:href="src/css/sprite.svg#icon-sass"></use>
+              </svg>
+            </div>
+            <h3>SASS/SCSS</h3>
+          </div>
+
+          <div class="skill-box header__skill-box">
+            <div class="skill__icon-box">
+              <svg>
                 <use xlink:href="src/css/sprite.svg#icon-javascript"></use>
               </svg>
             </div>
@@ -109,15 +118,6 @@
               </svg>
             </div>
             <h3>TypeScript</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-sass"></use>
-              </svg>
-            </div>
-            <h3>SASS/SCSS</h3>
           </div>
 
           <div class="skill-box header__skill-box">
@@ -221,8 +221,8 @@
               I am actively looking for new opportunities.
             </p>
             <a href="./CV.pdf"
-            download=""
-             class="btn btn--outline">
+               target="_blank"
+               class="btn btn--outline">
              Download CV</a>
             <a href="https://www.linkedin.com/in/ibrahim-adedokun-b285b019a"
              class="btn btn--cta">
@@ -337,8 +337,51 @@
       <section class="section-works section" id="works" data-section="works">
         <h2>Some of my works</h2>
         <div class="works">
+          <div class="work">
+            <img
+              src="src/img/car-games.png"
+              alt="Car games"
+              class="work__preview work__preview--contain"
+            />
+            <div class="work__infos">
+              <h3 class="work__heading">Car Games</h3>
+              <p class="work__description">
+                A fullstack mobile application car games application built with React Native. 
+                The app features authentication, stack and tab navigations and players leaderboard. <br/>
+                <span><em>Still in development...</em></span>
+              </p>
+              <a
+                href="https://github.com/Tiskae/car-games"
+                target="_blank"
+                class="btn btn--view-code"
+              >
+                <svg>
+                  <use xlink:href="src/css/sprite.svg#icon-github"></use>
+                </svg>
+                View code
+              </a>
+              <a
+                href="#"
+                class="btn btn--live-preview btn--live-preview--disabled"
+                aria-disabled="true"
+              >
+                <svg>
+                  <use xlink:href="src/css/sprite.svg#icon-eye"></use>
+                </svg>
+                live preview
+              </a>
+            </div>
+            <div class="work__stacks">
+              <ul class="work__stack--list">
+                <li class="work__stack--item work__stack--item--long">React Native</li>
+                <li class="work__stack--item work__stack--item--long">React Navigation</li>
+                <li class="work__stack--item">Redux</li>
+                <li class="work__stack--item">Node.js</li>
+              </ul>
+            </div>
+          </div>
          
-          <div class="work work--1">
+          <div class="work">
             <img
               src="src/img/sudocool.png"
               alt="work preview"
@@ -376,12 +419,13 @@
               <ul class="work__stack--list">
                 <li class="work__stack--item">React</li>
                 <li class="work__stack--item">Redux</li>
+                <li class="work__stack--item">Routing</li>
                 <li class="work__stack--item">CSS</li>
               </ul>
             </div>
           </div>
 
-          <div class="work work--2">
+          <div class="work">
             <img
               src="src/img/quizzaly.png"
               alt="work preview"
@@ -425,7 +469,7 @@
             </div>
           </div>
 
-          <div class="work work--3">
+          <div class="work">
             <img
               src="src/img/cgpa-dark.png"
               alt="work preview"
@@ -470,7 +514,7 @@
           </div>
 
 
-          <div class="work work--4">
+          <div class="work">
             <img
               src="src/img/zero8.jpg"
               alt="work preview"
@@ -515,7 +559,7 @@
             </div>
           </div>
         
-          <div class="work work--5">
+          <div class="work">
             <img
               src="src/img/sunny-side.netlify.app_.png"
               alt="work preview"
