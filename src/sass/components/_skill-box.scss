@@ -8,7 +8,7 @@
   border-bottom-right-radius: 5rem;
   border: 0.15rem solid var(--color-primary--light);
   transition: all 0.2s;
-  width: 19rem;
+  width: 16rem;
 
   @include respond(tab-land) {
     width: 15rem;
@@ -27,14 +27,18 @@
     border-bottom-right-radius: 2rem;
   }
 
+  @include respond(phone) {
+    width: 10rem;
+  }
+
   &:hover {
     transform: translateY(-1rem);
     border-color: var(--color-secondary);
   }
 
   svg {
-    height: 12rem;
-    width: 12rem;
+    height: 8rem;
+    width: 8rem;
 
     @include respond(tab-land) {
       height: 10rem;
