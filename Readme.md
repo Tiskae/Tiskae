@@ -16,7 +16,9 @@
 - JavaScript
 - React
 - React native
-- Git
+- Node.js
+- Express.js
+- Databases (MySql with Sequelize, MongoDB with Mongoose)
 
 ### My Portfolio
 
