@@ -23,3 +23,7 @@
 ### My Portfolio
 
 [https://tiskae.netlify.app](https://tiskae.netlify.app)
+
+### My GitLab
+
+[https://gitlab.com/Tiskae1](https://gitlab.com/Tiskae1)
