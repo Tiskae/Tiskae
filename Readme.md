@@ -16,8 +16,14 @@
 - JavaScript
 - React
 - React native
-- Git
+- Node.js
+- Express.js
+- Databases (MySql with Sequelize, MongoDB with Mongoose)
 
 ### My Portfolio
 
 [https://tiskae.netlify.app](https://tiskae.netlify.app)
+
+### My GitLab
+
+[https://gitlab.com/Tiskae1](https://gitlab.com/Tiskae1)
