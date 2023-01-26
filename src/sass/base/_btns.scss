@@ -1,0 +1,115 @@
+.btn {
+  position: relative;
+  border: none;
+  border-radius: 0;
+  padding: 1rem 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  font-weight: 700;
+  background-color: var(--color-secondary);
+  transition: all 0.15s;
+  text-align: center;
+  font-family: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &--outline {
+    background-color: transparent;
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
+  }
+
+  &--view-code,
+  &--live-preview {
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.35rem;
+    font-size: 0.8rem;
+    color: var(--color-primary);
+    background-color: var(--color-secondary--light);
+    transition: all 0.3s;
+    padding: 0.4rem 0.35rem;
+    justify-self: start;
+
+    @include respond(phone) {
+      // rescaling to 0.8x
+      padding: 0.36rem 0.28rem;
+      font-size: 0.64rem;
+      border-radius: 0.4rem;
+    }
+
+    svg {
+      height: 2.2rem;
+      width: 2.5rem;
+
+      @include respond(phone) {
+        // rescaling to 0.8x
+        height: 1.76rem;
+        width: 2rem;
+      }
+    }
+  }
+
+  &--view-all {
+    background-color: transparent;
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
+
+    svg {
+      height: 3rem;
+      width: 3rem;
+      margin-right: 15px;
+
+      fill: var(--color-primary);
+    }
+  }
+
+  &--live-preview {
+    background-color: var(--color-secondary);
+  }
+
+  &--disabled {
+    filter: grayscale(1) brightness(0.7) opacity(0.7);
+    cursor: not-allowed;
+
+    &:hover {
+      animation: none;
+      box-shadow: none;
+    }
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3) 50%,
+      transparent 50%
+    );
+    transition: all 0.65s;
+  }
+
+  &:hover::after {
+    width: 100%;
+    opacity: 1;
+  }
+  &:hover {
+    box-shadow: 0 0.5rem 1rem 0.2rem rgba(255, 255, 255, 0.2);
+    animation: rebuild 0.25s;
+  }
+}

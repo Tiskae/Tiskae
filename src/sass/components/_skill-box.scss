@@ -1,6 +1,8 @@
 .skill-box {
   background-color: var(--color-primary--light);
-  padding: 3rem;
+  // max-height: 180px;
+  width: 160px;
+  padding: 3.3rem 2rem;
   display: grid;
   justify-items: center;
   grid-gap: 1rem;
@@ -8,7 +10,6 @@
   border-bottom-right-radius: 5rem;
   border: 0.15rem solid var(--color-primary--light);
   transition: all 0.2s;
-  width: 16rem;
 
   @include respond(tab-land) {
     width: 15rem;
@@ -52,8 +53,7 @@
   }
 
   h3 {
-    font-size: 1.5rem;
-    color: var(--color-secondary);
+    font-size: 1.4rem;
     text-align: center;
 
     @include respond(tab-port) {
