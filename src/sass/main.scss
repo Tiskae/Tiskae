@@ -8,15 +8,16 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/experience";
 @import "components/header-component-about-me";
 @import "components/header-component-name";
 @import "components/header-component-profile-pic";
 @import "components/header-component-skills";
 @import "components/loader";
 @import "components/nav";
+@import "components/project";
 @import "components/skill-box";
 @import "components/social-handles";
-@import "components/work";
 
 @import "layout/homepage-layout";
 
