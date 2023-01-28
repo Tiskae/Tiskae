@@ -221,9 +221,9 @@ h3 {
   .experience:nth-of-type(1) {
     animation-delay: 0; }
   .experience:nth-of-type(2) {
-    animation-delay: 2s; }
-  .experience:nth-of-type(3) {
     animation-delay: 4s; }
+  .experience:nth-of-type(3) {
+    animation-delay: 2s; }
   .experience:nth-of-type(4) {
     animation-delay: 6s; }
   .experience a {
@@ -435,7 +435,6 @@ h3 {
     backface-visibility: hidden; }
 
 .loader {
-  display: none !important;
   height: 100%;
   width: 100%;
   position: fixed;

@@ -1,5 +1,4 @@
 .loader {
-  display: none !important;
   height: 100%;
   width: 100%;
   position: fixed;
@@ -13,7 +12,6 @@
   @include gridCenter;
   align-items: center;
   animation: fadeOut 1s 2s forwards;
-  //   display: none;
 
   &__box {
     display: grid;
