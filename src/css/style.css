@@ -512,7 +512,10 @@ h3 {
       .navigation ul {
         width: 3rem; } }
   .navigation li {
-    transform: rotate(90deg); }
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    width: auto; }
     .navigation li a {
       text-decoration: none;
       color: #446f94;

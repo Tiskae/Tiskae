@@ -41,6 +41,9 @@
 
   li {
     transform: rotate(90deg);
+    display: flex;
+    justify-content: center;
+    width: auto;
 
     a {
       text-decoration: none;
