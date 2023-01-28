@@ -138,10 +138,10 @@ body {
     background-color: var(--color-secondary); }
   .btn--disabled {
     filter: grayscale(1) brightness(0.7) opacity(0.7);
-    cursor: not-allowed; }
+    cursor: not-allowed;
+    animation: none !important; }
     .btn--disabled:hover {
-      animation: none;
-      box-shadow: none; }
+      box-shadow: none !important; }
     .btn--disabled::before, .btn--disabled::after {
       display: none; }
   .btn::after {
@@ -180,7 +180,11 @@ h4 {
   h2.mono,
   h3.mono,
   h4.mono {
-    font-family: monospace; }
+    font-family: monospace;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    word-spacing: 2px; }
 
 h2 {
   font-size: 2.4rem; }
@@ -225,7 +229,9 @@ h3 {
   .experience a {
     height: 100%;
     grid-column: 1 / 1;
-    grid-row: 1 / 2; }
+    grid-row: 1 / 2;
+    height: 4rem;
+    width: 4rem; }
   .experience__logo {
     height: 4rem;
     width: 4rem;

@@ -12,7 +12,6 @@
   animation: animateBorderUniform 2s alternate infinite;
 
   @include respond(phone) {
-    // background-color: red;
     display: flex;
     flex-direction: column;
     gap: 1.4rem;
@@ -33,24 +32,22 @@
   &:nth-of-type(4) {
     animation-delay: 6s;
   }
-  //   grid-template-rows: ;
 
   a {
     height: 100%;
     grid-column: 1 / 1;
     grid-row: 1 / 2;
-    // background-color: yellow;
+    height: 4rem;
+    width: 4rem;
   }
 
   &__logo {
-    // background-color: #fff;
     height: 4rem;
     width: 4rem;
     object-fit: cover;
   }
 
   &__headings {
-    // background-color: red;
     display: grid;
     gap: 0.2rem;
   }
@@ -70,7 +67,6 @@
   &__details {
     grid-column: 2;
     grid-row: 2;
-    // background-color: steelblue;
     list-style: none;
     display: grid;
     gap: 0.5rem;
