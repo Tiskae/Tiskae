@@ -1,653 +1,646 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="shortcut icon" href="src/img/favicon.jpeg" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Milonga&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <script defer src="src/js/script.js"></script>
-    <title>Tiskae's Portfolio | Frontend Developer</title>
-  </head>
-  <body class="body-container" id="body">
-     <div class="loader">
-      <div class="loader__box">
-        <div class="loader__box-item loader__box-item--1"></div>
-        <div class="loader__box-item loader__box-item--2"></div>
-        <div class="loader__box-item loader__box-item--3"></div>
-        <div class="loader__box-item loader__box-item--4"></div>
-        <div class="loader__box-item loader__box-item--5"></div>
-        <div class="loader__box-item loader__box-item--6"></div>
-        <div class="loader__box-item loader__box-item--7"></div>
-        <div class="loader__box-item loader__box-item--8"></div>
-        <div class="loader__box-item loader__box-item--9"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="shortcut icon" href="src/img/favicon.jpeg" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Milonga&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <script defer src="src/js/script.js"></script>
+  <title>Tiskae's Portfolio | Frontend Developer</title>
+</head>
+
+<body class="body-container" id="body">
+  <div class="loader">
+    <div class="loader__box">
+      <div class="loader__box-item loader__box-item--1"></div>
+      <div class="loader__box-item loader__box-item--2"></div>
+      <div class="loader__box-item loader__box-item--3"></div>
+      <div class="loader__box-item loader__box-item--4"></div>
+      <div class="loader__box-item loader__box-item--5"></div>
+      <div class="loader__box-item loader__box-item--6"></div>
+      <div class="loader__box-item loader__box-item--7"></div>
+      <div class="loader__box-item loader__box-item--8"></div>
+      <div class="loader__box-item loader__box-item--9"></div>
+    </div>
+  </div>
+
+  <div class="social-handles">
+    <ul>
+      <li>
+        <a href="https://github.com/tiskae" target="_blank"><svg class="github">
+            <use xlink:href="src/css/sprite.svg#icon-github"></use>
+          </svg>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://www.linkedin.com/in/ibrahim-adedokun-b285b019a" target="_blank"><svg>
+            <use xlink:href="src/css/sprite.svg#icon-linkedin"></use>
+          </svg>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://twitter.com/Tiskae1" target="_blank"><svg>
+            <use xlink:href="src/css/sprite.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://mailto:adedokuntobiloba100@gmail.com" target="_blank"><svg>
+            <use xlink:href="src/css/sprite.svg#icon-gmail"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <main class="main-container">
+    <section class="section-header section" id="home" data-section="home">
+      <div class="header__component header__component--skills">
+        <div class="skill-box header__skill-box header__skill-box--active">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-html5"></use>
+            </svg>
+          </div>
+          <h3>HTML</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-css3"></use>
+            </svg>
+          </div>
+          <h3>CSS</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-sass"></use>
+            </svg>
+          </div>
+          <h3>SASS/SCSS</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-javascript"></use>
+            </svg>
+          </div>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-typescript"></use>
+            </svg>
+          </div>
+          <h3>TypeScript</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-git"></use>
+            </svg>
+          </div>
+          <h3>Git</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-github-white"></use>
+            </svg>
+          </div>
+          <h3>Github</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-react"></use>
+            </svg>
+          </div>
+          <h3>React</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-redux"></use>
+            </svg>
+          </div>
+          <h3>Redux</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-react"></use>
+            </svg>
+          </div>
+          <h3>React Native</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-node-dot-js"></use>
+            </svg>
+          </div>
+          <h3>Node.js</h3>
+        </div>
+
+        <div class="skill-box header__skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-mongodb"></use>
+            </svg>
+          </div>
+          <h3>MongoDB</h3>
+        </div>
       </div>
-    </div>
+      <div class="header__component header__component--profile-pic">
+        <img src="src/img/profile-img.png" alt="My profile picture" />
+      </div>
+      <div class="header__component header__component--name">
+        <span>I'm</span>
+        <h1>Tiskae</h1>
+        <p>&LeftAngleBracket;Frontend Engineer /&RightAngleBracket;</p>
+      </div>
 
-    <div class="social-handles">
-      <ul>
-        <li>
-          <a href="https://github.com/tiskae" target="_blank"
-            ><svg class="github">
-              <use xlink:href="src/css/sprite.svg#icon-github"></use>
+      <div class="header__component header__component--about-me-box">
+        <div class="about-me">
+          <h3 class="mono">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-info"></use>
             </svg>
-          </a>
-        </li>
-
-        <li>
-          <a href="https://www.linkedin.com/in/ibrahim-adedokun-b285b019a" target="_blank"
-            ><svg>
-              <use xlink:href="src/css/sprite.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li>
-          <a href="https://twitter.com/Tiskae1" target="_blank"
-            ><svg>
-              <use xlink:href="src/css/sprite.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li>
-          <a href="https://mailto:adedokuntobiloba100@gmail.com" target="_blank"
-            ><svg>
-              <use xlink:href="src/css/sprite.svg#icon-gmail"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <main class="main-container">
-      <section class="section-header section" id="home" data-section="home">
-        <div class="header__component header__component--skills">
-          <div class="skill-box header__skill-box header__skill-box--active">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-html5"></use>
-              </svg>
-            </div>
-            <h3>HTML</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-css3"></use>
-              </svg>
-            </div>
-            <h3>CSS</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-sass"></use>
-              </svg>
-            </div>
-            <h3>SASS/SCSS</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-javascript"></use>
-              </svg>
-            </div>
-            <h3>JavaScript</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-typescript"></use>
-              </svg>
-            </div>
-            <h3>TypeScript</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-git"></use>
-              </svg>
-            </div>
-            <h3>Git</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-github-white"></use>
-              </svg>
-            </div>
-            <h3>Github</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-react"></use>
-              </svg>
-            </div>
-            <h3>React</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-redux"></use>
-              </svg>
-            </div>
-            <h3>Redux</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-react"></use>
-              </svg>
-            </div>
-            <h3>React Native</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-node-dot-js"></use>
-              </svg>
-            </div>
-            <h3>Node.js</h3>
-          </div>
-
-          <div class="skill-box header__skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-mongodb"></use>
-              </svg>
-            </div>
-            <h3>MongoDB</h3>
-          </div>
-        </div>
-        <div class="header__component header__component--profile-pic">
-          <img src="src/img/profile-img.png" alt="My profile picture" />
-        </div>
-        <div class="header__component header__component--name">
-          <span>I'm</span>
-          <h1>Tiskae</h1>
-          <p>&LeftAngleBracket;Frontend Engineer /&RightAngleBracket;</p>
-        </div>
-
-        <div class="header__component header__component--about-me-box">
-          <div class="about-me">
-            <h3 class="mono">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-info"></use>
-              </svg>
-              About me
-            </h3>
-            <p>
-              <!-- Hello,
-              I am a front-end developer with vast experience working with various companies including a HealthTech startup. 
-              I have professional working experience building web applications, websites, landing pages, 
+            About me
+          </h3>
+          <p>
+            <!-- Hello,
+              I am a front-end developer with vast experience projecting with various companies including a HealthTech startup. 
+              I have professional projecting experience building web applications, websites, landing pages, 
               testing apps using modern technologies like React, Redux, SASS, CSS in JS, TypeScript, JavaScript,
               development tools like Babel, Webpack, Parcel, Jest and Enzyme for testing. 
               I also have some experience building mobile apps using React Native, and some Python knowledge.
               Building state-of-the-art, easy to use, user-friendly websites and
               applications is truly a passion of mine. In addition to my knowledge base,
               I actively seek out new technologies and stay up-to-date on industry trends and advancements.
-              I am open to work full-time, part-time or project-based. Thank you. -->
-              Hello, I am a frontend engineer with 3 years of experience working with various companies 
-              including a HealthTech startup. I have good experience working remotely and my communication skill 
-              in English is excellent. I have professional working experience building web applications, websites, 
-              landing pages, testing apps using modern technologies like React, Redux, SASS, CSS in JS, TypeScript, 
-              Nextjs, JavaScript, development tools like Babel, Webpack, Parcel, Jest and Enzyme for testing.
-              I also have experience building mobile apps using React Native, and backend using Node.js and 
-              Express.js, MySQL, Sequelize, MongoDb and Mongoose library. 
-              I am actively looking for new opportunities.
+              I am open to project full-time, part-time or project-based. Thank you. -->
+            Hello, I am a frontend engineer with 3 years of experience projecting with various companies
+            including a HealthTech startup. I have good experience projecting remotely and my communication skill
+            in English is excellent. I have professional projecting experience building web applications, websites,
+            landing pages, testing apps using modern technologies like React, Redux, SASS, CSS in JS, TypeScript,
+            Nextjs, JavaScript, development tools like Babel, Webpack, Parcel, Jest and Enzyme for testing.
+            I also have experience building mobile apps using React Native, and backend using Node.js and
+            Express.js, MySQL, Sequelize, MongoDb and Mongoose library.
+            I am actively looking for new opportunities.
+          </p>
+          <a href="./CV.pdf" target="_blank" class="btn btn--outline">
+            Download CV</a>
+          <a href="https://www.linkedin.com/in/ibrahim-adedokun-b285b019a" class="btn btn--cta">
+            Hire me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-skills section" id="skills" data-section="skills">
+      <h2 class="mono">Tools I work with</h2>
+      <div class="skill-boxes">
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-html5"></use>
+            </svg>
+          </div>
+          <h3>HTML</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-css3"></use>
+            </svg>
+          </div>
+          <h3>CSS</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-sass"></use>
+            </svg>
+          </div>
+          <h3>SASS/SCSS</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-javascript"></use>
+            </svg>
+          </div>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-typescript"></use>
+            </svg>
+          </div>
+          <h3>TypeScript</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-git"></use>
+            </svg>
+          </div>
+          <h3>Git</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-github-white"></use>
+            </svg>
+          </div>
+          <h3>Github</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-react"></use>
+            </svg>
+          </div>
+          <h3>React</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-redux"></use>
+            </svg>
+          </div>
+          <h3>Redux</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-react"></use>
+            </svg>
+          </div>
+          <h3>React Native</h3>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-node-dot-js"></use>
+            </svg>
+          </div>
+          <h3>Node.js</h3>
+        </div>
+        <div class="skill-box">
+          <div class="skill__icon-box">
+            <svg>
+              <use xlink:href="src/css/sprite.svg#icon-mongodb"></use>
+            </svg>
+          </div>
+          <h3>MongoDB</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-experiences section" id="experience" data-section="experience">
+      <h2 class="mono">Work Experience</h2>
+      <div class="experiences">
+        <div class="experience">
+          <a href="https://fitsit.io" target="_blank"><img class="experience__logo" src="./src/img/fitsit-logo.svg"
+              alt="FitSit logo" /></a>
+          <div class="experience__headings">
+            <h3 class="experience__title">Frontend Engineer</h3>
+            <p class="experience__company">FitSit</p>
+            <p class="experience__duration">DEC 2021 - Present (1 yr 2 months +)</p>
+          </div>
+          <ul class="experience__details">
+            <li>Lead frontend developer, developed pages with React and SASS, handled state management with Redux,
+              added translations using i18next, handled error, socket connection.</li>
+            <li>Used AGILE, connected with backend, cloud and design teammates, worked fully remote.</li>
+          </ul>
+        </div>
+
+        <div class="experience">
+          <a href="https://joinentre.com" target="_blank"><img class="experience__logo"
+              src="./src/img/entre-logo.avif" /></a>
+          <div class="experience__headings">
+            <h3 class="experience__title">Frontend Engineer</h3>
+            <p class="experience__company">Entre</p>
+            <p class="experience__duration">JUL 2021 - NOV 2022 (5 months)</p>
+          </div>
+          <ul class="experience__details">
+            <li>Built a fully functional blog using Next.js, TypeScript and SASS on the frontend integrated with a
+              headless CMS backend.</li>
+            <li>Contributed to building the platform by fixing UI and technical bugs, coding out new designs, adding
+              more functionalities and features.</li>
+            <li>Collaborated with product team members to implement new feature developments.</li>
+          </ul>
+        </div>
+
+        <div class="experience">
+          <a href="https://internship.zuri.team/" target="_blank"><img class="experience__logo"
+              src="./src/img/hng-logo.jpeg" /></a>
+          <div class="experience__headings">
+            <h3 class="experience__title">React Developer Intern</h3>
+            <p class="experience__company">HNG Internships</p>
+            <p class="experience__duration">AUG 2021 - SEP 2022 (2 months)</p>
+          </div>
+          <ul class="experience__details">
+            <li>Built a fully functional blog using Next.js, TypeScript and SASS on the frontend integrated with a
+              headless CMS backend.</li>
+            <li>Contributed to building the platform by fixing UI and technical bugs, coding out new designs, adding
+              more functionalities and features.</li>
+            <li>Collaborated with product team members to implement new feature developments.</li>
+          </ul>
+        </div>
+
+        <div class="experience">
+          <a href="https://digital-dada.com/" target="_blank"><img class="experience__logo"
+              src="./src/img/digital-dada-logo.jpeg" /></a>
+          <div class="experience__headings">
+            <h3 class="experience__title">Junior Frontend Developer</h3>
+            <p class="experience__company">Digital Dada</p>
+            <p class="experience__duration">JAN 2021 - SEP 2021 (9 months)</p>
+          </div>
+          <ul class="experience__details">
+            <li>Developed various website for company's clients.</li>
+            <li>Fixed design and application bugs from the Q and A teams to improve design and performance and satisfy
+              the client's need.</li>
+            <li>Accomplished better code quality under the supervision and mentoring of senior developers.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-projects section" id="projects" data-section="projects">
+      <h2 class="mono">Some of my personal projects</h2>
+      <div class="projects">
+        <div class="project">
+          <img src="src/img/car-games.png" alt="Car games" class="project__preview project__preview--contain" />
+          <div class="project__infos">
+            <h3 class="project__heading">Car Games</h3>
+            <p class="project__description">
+              A fullstack mobile application car games application built with React Native.
+              The app features authentication, stack and tab navigations and players leaderboard. <br />
+              <span><em>Still in development...</em></span>
             </p>
-            <a href="./CV.pdf"
-               target="_blank"
-               class="btn btn--outline">
-             Download CV</a>
-            <a href="https://www.linkedin.com/in/ibrahim-adedokun-b285b019a"
-             class="btn btn--cta">
-             Hire me</a>
+            <a href="https://github.com/Tiskae/car-games" target="_blank" class="btn btn--view-code">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-github"></use>
+              </svg>
+              View code
+            </a>
+            <a href="#" class="btn btn--live-preview btn--live-preview--disabled" aria-disabled="true">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-eye"></use>
+              </svg>
+              live preview
+            </a>
+          </div>
+          <div class="project__stacks">
+            <ul class="project__stack--list">
+              <li class="project__stack--item project__stack--item--long">React Native</li>
+              <li class="project__stack--item project__stack--item--long">React Navigation</li>
+              <li class="project__stack--item">Redux</li>
+              <li class="project__stack--item">Node.js</li>
+            </ul>
           </div>
         </div>
-      </section>
 
-      <section class="section-skills section" id="skills" data-section="skills">
-        <h2 class="mono">Tools I work with</h2>
-        <div class="skill-boxes">
-          <div class="skill-box">
-            <div class="skill__icon-box">
+        <div class="project">
+          <img src="src/img/sudocool.png" alt="project preview" class="project__preview" />
+          <div class="project__infos">
+            <h3 class="project__heading">Sudocool</h3>
+            <p class="project__description">
+              Sudocool is web application that gives random difficulty-based Sudoku puzzle for you to solve.
+              It implements all rules of Sudoku. Additionally, it can solve any valid Sudoku
+              puzzle instantly using the backtracing algorithm.
+            </p>
+            <a href="https://github.com/Tiskae/sudocool" target="_blank" class="btn btn--view-code">
               <svg>
-                <use xlink:href="src/css/sprite.svg#icon-html5"></use>
+                <use xlink:href="src/css/sprite.svg#icon-github"></use>
               </svg>
-            </div>
-            <h3>HTML</h3>
+              View code
+            </a>
+            <a href="https://sudocool.netlify.app" target="_blank" class="btn btn--live-preview">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-eye"></use>
+              </svg>
+              live preview
+            </a>
           </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-css3"></use>
-              </svg>
-            </div>
-            <h3>CSS</h3>
-          </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-sass"></use>
-              </svg>
-            </div>
-            <h3>SASS/SCSS</h3>
-          </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-javascript"></use>
-              </svg>
-            </div>
-            <h3>JavaScript</h3>
-          </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-typescript"></use>
-              </svg>
-            </div>
-            <h3>TypeScript</h3>
-          </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-git"></use>
-              </svg>
-            </div>
-            <h3>Git</h3>
-          </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-github-white"></use>
-              </svg>
-            </div>
-            <h3>Github</h3>
-          </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-react"></use>
-              </svg>
-            </div>
-            <h3>React</h3>
-          </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-redux"></use>
-              </svg>
-            </div>
-            <h3>Redux</h3>
-          </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-react"></use>
-              </svg>
-            </div>
-            <h3>React Native</h3>
-          </div>
-
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-node-dot-js"></use>
-              </svg>
-            </div>
-            <h3>Node.js</h3>
-          </div>
-          <div class="skill-box">
-            <div class="skill__icon-box">
-              <svg>
-                <use xlink:href="src/css/sprite.svg#icon-mongodb"></use>
-              </svg>
-            </div>
-            <h3>MongoDB</h3>
+          <div class="project__stacks">
+            <ul class="project__stack--list">
+              <li class="project__stack--item">React</li>
+              <li class="project__stack--item">Redux</li>
+              <li class="project__stack--item">Routing</li>
+              <li class="project__stack--item">CSS</li>
+            </ul>
           </div>
         </div>
-      </section>
 
-      <section class="section-works section" id="works" data-section="works">
-        <h2 class="mono">Some of my personal projects</h2>
-        <div class="works">
-          <div class="work">
-            <img
-              src="src/img/car-games.png"
-              alt="Car games"
-              class="work__preview work__preview--contain"
-            />
-            <div class="work__infos">
-              <h3 class="work__heading">Car Games</h3>
-              <p class="work__description">
-                A fullstack mobile application car games application built with React Native. 
-                The app features authentication, stack and tab navigations and players leaderboard. <br/>
-                <span><em>Still in development...</em></span>
-              </p>
-              <a
-                href="https://github.com/Tiskae/car-games"
-                target="_blank"
-                class="btn btn--view-code"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-github"></use>
-                </svg>
-                View code
-              </a>
-              <a
-                href="#"
-                class="btn btn--live-preview btn--live-preview--disabled"
-                aria-disabled="true"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-eye"></use>
-                </svg>
-                live preview
-              </a>
-            </div>
-            <div class="work__stacks">
-              <ul class="work__stack--list">
-                <li class="work__stack--item work__stack--item--long">React Native</li>
-                <li class="work__stack--item work__stack--item--long">React Navigation</li>
-                <li class="work__stack--item">Redux</li>
-                <li class="work__stack--item">Node.js</li>
-              </ul>
-            </div>
+        <div class="project">
+          <img src="src/img/quizzaly.png" alt="project preview" class="project__preview" />
+          <div class="project__infos">
+            <h3 class="project__heading">Quizzaly</h3>
+            <p class="project__description">
+              Quizzaly is a quiz app built using react.js and Firebase as the Realtime Database.
+              The app features quite a lot of tracks and allows for difficulty, mode of options
+              and number of questions preferences.
+            </p>
+            <a href="https://github.com/Tiskae/quizzaly" target="_blank" class="btn btn--view-code">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-github"></use>
+              </svg>
+              View code
+            </a>
+            <a href="https://quizzaly.netlify.app" target="_blank" class="btn btn--live-preview">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-eye"></use>
+              </svg>
+              live preview
+            </a>
           </div>
-         
-          <div class="work">
-            <img
-              src="src/img/sudocool.png"
-              alt="work preview"
-              class="work__preview"
-            />
-            <div class="work__infos">
-              <h3 class="work__heading">Sudocool</h3>
-              <p class="work__description">
-                Sudocool is web application that gives random difficulty-based Sudoku puzzle for you to solve.
-                 It implements all rules of Sudoku. Additionally, it can solve any valid Sudoku
-                  puzzle instantly using the backtracing algorithm.
-              </p>
-              <a
-                href="https://github.com/Tiskae/sudocool"
-                target="_blank"
-                class="btn btn--view-code"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-github"></use>
-                </svg>
-                View code
-              </a>
-              <a
-                href="https://sudocool.netlify.app"
-                target="_blank"
-                class="btn btn--live-preview"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-eye"></use>
-                </svg>
-                live preview
-              </a>
-            </div>
-            <div class="work__stacks">
-              <ul class="work__stack--list">
-                <li class="work__stack--item">React</li>
-                <li class="work__stack--item">Redux</li>
-                <li class="work__stack--item">Routing</li>
-                <li class="work__stack--item">CSS</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work">
-            <img
-              src="src/img/quizzaly.png"
-              alt="work preview"
-              class="work__preview"
-            />
-            <div class="work__infos">
-              <h3 class="work__heading">Quizzaly</h3>
-              <p class="work__description">
-                Quizzaly is a quiz app built using react.js and Firebase as the Realtime Database.
-                 The app features quite a lot of tracks and allows for difficulty, mode of options
-                  and number of questions preferences.
-              </p>
-              <a
-                href="https://github.com/Tiskae/quizzaly"
-                target="_blank"
-                class="btn btn--view-code"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-github"></use>
-                </svg>
-                View code
-              </a>
-              <a
-                href="https://quizzaly.netlify.app"
-                target="_blank"
-                class="btn btn--live-preview"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-eye"></use>
-                </svg>
-                live preview
-              </a>
-            </div>
-            <div class="work__stacks">
-              <ul class="work__stack--list">
-                <li class="work__stack--item">React</li>
-                <li class="work__stack--item">Routing</li>
-                <li class="work__stack--item">Firebase</li>
-                <li class="work__stack--item">CSS</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="work">
-            <img
-              src="src/img/cgpa-dark.png"
-              alt="work preview"
-              class="work__preview"
-            />
-            <div class="work__infos">
-              <h3 class="work__heading">CGPA calculator</h3>
-              <p class="work__description">
-                This is a frontend app, a CGPA calculator basically, that helps students
-                to calculate thier CGPA easily in a simple and user-friendly experience. Built using the MVC JavaScript
-                architecture and styled using SCSS.
-              </p>
-              <a
-                href="https://github.com/Tiskae/cgpa-calculator"
-                target="_blank"
-                class="btn btn--view-code"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-github"></use>
-                </svg>
-                View code
-              </a>
-              <a
-                href="https://calc-cgpa.netlify.app/"
-                target="_blank"
-                class="btn btn--live-preview"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-eye"></use>
-                </svg>
-                live preview
-              </a>
-            </div>
-            <div class="work__stacks">
-              <ul class="work__stack--list">
-                <li class="work__stack--item">HTML</li>
-                <li class="work__stack--item">SASS</li>
-                <li class="work__stack--item">JavaScript</li>
-                <li class="work__stack--item">MVC</li>
-              </ul>
-            </div>
-          </div>
-
-
-          <div class="work">
-            <img
-              src="src/img/zero8.jpg"
-              alt="work preview"
-              class="work__preview"
-            />
-            <div class="work__infos">
-              <h3 class="work__heading">Infinix Zero 8</h3>
-              <p class="work__description">
-                A landing page for the mid-range phone from InfinixMobility, the
-                Zero 8. It's a single-paged website showing all the features of
-                the mobile phone in a cool and nice user experience. Subtle
-                animations are noticeable.
-              </p>
-              <a
-                href="https://github.com/Tiskae/zero8"
-                target="_blank"
-                class="btn btn--view-code"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-github"></use>
-                </svg>
-                View code
-              </a>
-              <a
-                href="https://zero8.netlify.app/"
-                target="_blank"
-                class="btn btn--live-preview"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-eye"></use>
-                </svg>
-                live preview
-              </a>
-            </div>
-            <div class="work__stacks">
-              <ul class="work__stack--list">
-                <li class="work__stack--item">HTML</li>
-                <li class="work__stack--item">CSS</li>
-                <li class="work__stack--item">SASS</li>
-                <li class="work__stack--item">JavaScript</li>
-              </ul>
-            </div>
-          </div>
-        
-          <div class="work">
-            <img
-              src="src/img/sunny-side.netlify.app_.png"
-              alt="work preview"
-              class="work__preview"
-            />
-            <div class="work__infos">
-              <h3 class="work__heading">Sunnyside Landing page</h3>
-              <p class="work__description">
-                A challenge by <strong>Frontend Mentor</strong> to code up a simple
-                 fully responsive landing page. The design was neat and pixel perfect.
-              </p>
-              <a
-                href="https://github.com/Tiskae/Sunnyside"
-                target="_blank"
-                class="btn btn--view-code"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-github"></use>
-                </svg>
-                View code
-              </a>
-              <a
-                href="https://sunny-side.netlify.app/"
-                target="_blank"
-                class="btn btn--live-preview"
-              >
-                <svg>
-                  <use xlink:href="src/css/sprite.svg#icon-eye"></use>
-                </svg>
-                live preview
-              </a>
-            </div>
-
-            <div class="work__stacks">
-              <ul class="work__stack--list">
-                <li class="work__stack--item">HTML</li>
-                <li class="work__stack--item">CSS</li>
-                <li class="work__stack--item">SASS</li>
-                <li class="work__stack--item">JavaScript</li>
-              </ul>
-            </div>
+          <div class="project__stacks">
+            <ul class="project__stack--list">
+              <li class="project__stack--item">React</li>
+              <li class="project__stack--item">Routing</li>
+              <li class="project__stack--item">Firebase</li>
+              <li class="project__stack--item">CSS</li>
+            </ul>
           </div>
         </div>
-        <a href="https://github.com/tiskae" target="_blank" class="btn btn--view-all">
-          <svg class="github">
-              <use xlink:href="src/css/sprite.svg#icon-github-green"></use>
-          </svg>
-          View all
-        </a>
-      </section>
 
-      <section class="section-footer section" id="footer" data-section="footer">
-        <div class="footer__texts">
-          <p>
-          Trust me, I'm a very nice person to relate with. If you have a project you want me to be part of, want to team up with me in some
-           online FPS games :) or just have something you want to say, you can start by 
-            <a target="_blank"
+        <div class="project">
+          <img src="src/img/cgpa-dark.png" alt="project preview" class="project__preview" />
+          <div class="project__infos">
+            <h3 class="project__heading">CGPA calculator</h3>
+            <p class="project__description">
+              This is a frontend app, a CGPA calculator basically, that helps students
+              to calculate thier CGPA easily in a simple and user-friendly experience. Built using the MVC JavaScript
+              architecture and styled using SCSS.
+            </p>
+            <a href="https://github.com/Tiskae/cgpa-calculator" target="_blank" class="btn btn--view-code">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-github"></use>
+              </svg>
+              View code
+            </a>
+            <a href="https://calc-cgpa.netlify.app/" target="_blank" class="btn btn--live-preview">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-eye"></use>
+              </svg>
+              live preview
+            </a>
+          </div>
+          <div class="project__stacks">
+            <ul class="project__stack--list">
+              <li class="project__stack--item">HTML</li>
+              <li class="project__stack--item">SASS</li>
+              <li class="project__stack--item">JavaScript</li>
+              <li class="project__stack--item">MVC</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="project">
+          <img src="src/img/zero8.jpg" alt="project preview" class="project__preview" />
+          <div class="project__infos">
+            <h3 class="project__heading">Infinix Zero 8</h3>
+            <p class="project__description">
+              A landing page for the mid-range phone from InfinixMobility, the
+              Zero 8. It's a single-paged website showing all the features of
+              the mobile phone in a cool and nice user experience. Subtle
+              animations are noticeable.
+            </p>
+            <a href="https://github.com/Tiskae/zero8" target="_blank" class="btn btn--view-code">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-github"></use>
+              </svg>
+              View code
+            </a>
+            <a href="https://zero8.netlify.app/" target="_blank" class="btn btn--live-preview">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-eye"></use>
+              </svg>
+              live preview
+            </a>
+          </div>
+          <div class="project__stacks">
+            <ul class="project__stack--list">
+              <li class="project__stack--item">HTML</li>
+              <li class="project__stack--item">CSS</li>
+              <li class="project__stack--item">SASS</li>
+              <li class="project__stack--item">JavaScript</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="src/img/sunny-side.netlify.app_.png" alt="project preview" class="project__preview" />
+          <div class="project__infos">
+            <h3 class="project__heading">Sunnyside Landing page</h3>
+            <p class="project__description">
+              A challenge by <strong>Frontend Mentor</strong> to code up a simple
+              fully responsive landing page. The design was neat and pixel perfect.
+            </p>
+            <a href="https://github.com/Tiskae/Sunnyside" target="_blank" class="btn btn--view-code">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-github"></use>
+              </svg>
+              View code
+            </a>
+            <a href="https://sunny-side.netlify.app/" target="_blank" class="btn btn--live-preview">
+              <svg>
+                <use xlink:href="src/css/sprite.svg#icon-eye"></use>
+              </svg>
+              live preview
+            </a>
+          </div>
+
+          <div class="project__stacks">
+            <ul class="project__stack--list">
+              <li class="project__stack--item">HTML</li>
+              <li class="project__stack--item">CSS</li>
+              <li class="project__stack--item">SASS</li>
+              <li class="project__stack--item">JavaScript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Tiskae?tab=repositories" target="_blank" class="btn btn--view-all">
+        <svg class="github">
+          <use xlink:href="src/css/sprite.svg#icon-github-green"></use>
+        </svg>
+        View all
+      </a>
+    </section>
+
+    <section class="section-footer section" id="footer" data-section="footer">
+      <div class="footer__texts">
+        <p>
+          Trust me, I'm a very nice person to relate with. If you have a project you want me to be part of, want to team
+          up with me in some
+          online FPS games :) or just have something you want to say, you can start by
+          <a target="_blank"
             href="https://api.whatsapp.com/send?phone=2348146264116&text=Hello%20Tiskae,%20I%20just%20viewed%20your%20portfolio.%20I%20want%20to%20tell%20you..."
             class="say-hi">Saying HI</a> on WhatsApp
-            <br /><br />
-            <p class="footer__quote">&rdquo;Always remember, you have within you the strength, the
-              patience, and the passion to reach for the stars to change the
-              world&ldquo;
-              <br /><strong>- Harriet Tubman</strong></p>
-          </p>
-        </div>
+          <br /><br />
+        <p class="footer__quote">&rdquo;Always remember, you have within you the strength, the
+          patience, and the passion to reach for the stars to change the
+          world&ldquo;
+          <br /><strong>- Harriet Tubman</strong>
+        </p>
+        </p>
+      </div>
 
-        <div class="footer__texts footer__icon-box">
-          <svg><use xlink:href="src/css/sprite.svg#icon-embed2"></use></svg>
-        </div>
+      <div class="footer__texts footer__icon-box">
+        <svg>
+          <use xlink:href="src/css/sprite.svg#icon-embed2"></use>
+        </svg>
+      </div>
 
-        <div class="footer-finals">
-          <div class="footer__author">
-            <p>Designed and coded by<span>&nbsp;Tiskae&nbsp;</span>in</p>
-            <div class="nigeria__flag">
-              <div class="flag__part flag__part--1"></div>
-              <div class="flag__part flag__part--2"></div>
-              <div class="flag__part flag__part--3"></div>
-            </div>
+      <div class="footer-finals">
+        <div class="footer__author">
+          <p>Designed and coded by<span>&nbsp;Tiskae&nbsp;</span>in</p>
+          <div class="nigeria__flag">
+            <div class="flag__part flag__part--1"></div>
+            <div class="flag__part flag__part--2"></div>
+            <div class="flag__part flag__part--3"></div>
           </div>
-          <p>&copy;copyright 2023</p>
         </div>
-  
-      </section>
-    </main>
-    <div class="navigation">
-      <ul>
-        <li><a href="#home" class="nav__tab nav__tab--home">Home</a></li>
-        <li><a href="#skills" class="nav__tab nav__tab--skills">Skills</a></li>
-        <li><a href="#works" class="nav__tab nav__tab--works">Works</a></li>
-        <li><a href="#footer" class="nav__tab nav__tab--footer">Footer</a></li>
-      </ul>
-    </div>
-  </body>
+        <p>&copy;copyright 2023</p>
+      </div>
+
+    </section>
+  </main>
+  <div class="navigation">
+    <ul>
+      <li><a href="#home" class="nav__tab nav__tab--home">Home</a></li>
+      <li><a href="#skills" class="nav__tab nav__tab--skills">Skills</a></li>
+      <li><a href="#experience" class="nav__tab nav__tab--experience">Experience</a></li>
+      <li><a href="#projects" class="nav__tab nav__tab--projects">Projects</a></li>
+      <li><a href="#footer" class="nav__tab nav__tab--footer">Footer</a></li>
+    </ul>
+  </div>
+</body>
+
 </html>

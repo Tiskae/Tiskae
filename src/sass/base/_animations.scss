@@ -43,6 +43,18 @@
   }
 }
 
+///////////// Animate-border-uniform ( only used in experience boxes )
+
+@keyframes animateBorderUniform {
+  0% {
+    border-color: rgba(70, 130, 180, 0.1);
+  }
+
+  100% {
+    border-color: rgba(70, 130, 180, 0.7);
+  }
+}
+
 ///////////////// Animate-text-color
 
 @keyframes animateColor {
