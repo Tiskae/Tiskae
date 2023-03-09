@@ -459,8 +459,7 @@ h3 {
   display: grid;
   justify-items: center;
   align-items: center;
-  animation: fadeOut 1s 2s forwards;
-  display: none; }
+  animation: fadeOut 1s 2s forwards; }
   .loader__box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
