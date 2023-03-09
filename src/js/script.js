@@ -6,7 +6,7 @@ const introPageSkillBoxes = document.querySelectorAll(".header__skill-box");
 const maxIntroPageCounter = introPageSkillBoxes.length;
 const navTabs = document.querySelectorAll(".nav__tab");
 const allSection = document.querySelectorAll(".section");
-const introSkillsDuration = 2400; //3 seconds, the rest for transitioning
+const introSkillsDuration = 2000; //3 seconds, the rest for transitioning
 let introPageCounter = 0;
 
 ///////////////////////////////////////////////
@@ -56,7 +56,6 @@ const switchActiveNavTab = function (els) {
   } else if (!el.isIntersecting) {
     tab.classList.remove("active");
   }
-
 };
 
 // Sections observer

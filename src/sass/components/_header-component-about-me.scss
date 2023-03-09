@@ -55,6 +55,24 @@
       justify-content: center;
       text-overflow: ellipsis;
       line-height: 1.4;
+      display: inline;
+
+      a {
+        color: white;
+        transition: all 0.1s;
+        // background-color: yellow;
+
+        &:hover {
+          color: var(--color-secondary);
+        }
+
+        &.highlighted {
+          color: var(--color-secondary);
+          &:hover {
+            color: white;
+          }
+        }
+      }
 
       @include respond(desktop) {
         font-size: 1.5rem;
