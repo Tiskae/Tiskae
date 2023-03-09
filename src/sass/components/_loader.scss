@@ -12,6 +12,7 @@
   @include gridCenter;
   align-items: center;
   animation: fadeOut 1s 2s forwards;
+  display: none;
 
   &__box {
     display: grid;
