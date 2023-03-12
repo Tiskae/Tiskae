@@ -22,7 +22,7 @@
 
 ### My Portfolio
 
-[https://tiskae.netlify.app](https://tiskae.netlify.app)
+[https://tiskae.tech](https://tiskae.tech)
 
 ### My GitLab
 
