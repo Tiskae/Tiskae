@@ -2,7 +2,7 @@
 
 ### About me
 
-- I'm am currently learning Golang for backend development
+- I'm currently learning Golang for backend development
 - I'm a frontend developer with expertise in React.js, Redux, TypeScript, SASS.
 - I experience in backend technologies with Node, Express and MongoDB (MERN)
 - I have strong affection❤ for cybersecurity and ethical hacking
@@ -18,6 +18,7 @@
 - React
 - React native
 - Node.js
+- Golang
 - Express.js
 - Databases (MySql with Sequelize, MongoDB with Mongoose)
 
