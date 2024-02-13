@@ -24,7 +24,7 @@
 
 ### My Portfolio
 
-[https://tiskae.tech](https://tiskae.codes)
+[https://tiskae.codes](https://tiskae.codes)
 
 ### My GitLab
 
