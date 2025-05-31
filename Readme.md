@@ -1,6 +1,6 @@
 # 💫 About Me:
 
-I'm currently learning Golang for backend development<br>I'm a frontend developer with expertise in Next.js, React.js, Redux, TypeScript, SASS.<br>I experience in backend technologies with Node, Express and MongoDB (MERN)<br>I have strong affection❤ for cybersecurity and ethical hacking<br>I'm open to collaborate on any project as well as open source<br>I'm actively open to work💪
+I'm currently learning Golang for backend development<br>I'm a frontend developer with expertise in Next.js, React.js, Redux, TypeScript, SASS.<br>I have experience in backend technologies with Node, Express and MongoDB (MERN) <br>I'm open to collaborate on any project as well as open source<br>I'm actively open to work💪
 
 ## 🌐 Socials:
 
