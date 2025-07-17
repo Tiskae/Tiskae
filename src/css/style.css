@@ -890,6 +890,8 @@ h3 {
   color: #dcebf8;
   font-style: italic;
   justify-self: end; }
+  .footer__texts span {
+    color: var(--color-secondary); }
 
 .footer__icon-box {
   display: grid;
@@ -948,9 +950,9 @@ h3 {
       animation: animateColor 3s infinite; }
 
 .nigeria__flag {
-  height: 2rem;
+  height: 1.8rem;
   margin: 0 1rem;
-  width: 4rem;
+  width: 3.3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 0.2rem;
