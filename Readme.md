@@ -1,13 +1,14 @@
 # 💫 About Me:
-I am Ibrahim Adedokun (AKA Tiskae), a Software Developer with 4+ years of work experience across three different startups globally. 
-I am proficient in crafting UIs in Next.js, React.js, TypeScript and various styling tools. 
+
+I am Ibrahim Adedokun (AKA Tiskae), a Software Developer with 5 years of work experience across three different startups globally.
+I am proficient in crafting UIs in Next.js, React.js, TypeScript and various styling tools.
 I am currently honing my skills in backend engineering with Golang, Node.js and SQL databases.
-<br /><br />
-I am actively looking for new roles as a Frontend Engineer, Fullstack Engineer (FE-heavy) or Junior Backend Engineer. 
+`<br /><br />`
+I am actively looking for new roles as a Frontend Engineer, Fullstack Engineer (FE-heavy) or Junior Backend Engineer.
 I am based in Lagos (GMT +1) and open to remote roles globally, with flexibility to work across European and United States time zones.
-<br /><br />
-Whether you&rsquo;re working on a new project, need a reliable software developer, or just want to chat about ideas, feel free to reach out on 
-[LinkedIn](https://www.linkedin.com/in/tiskae) or via [mail](adedokuntobiloba100@gmail.com). 
+`<br /><br />`
+Whether you&rsquo;re working on a new project, need a reliable software developer, or just want to chat about ideas, feel free to reach out on
+[LinkedIn](https://www.linkedin.com/in/tiskae) or via [mail](adedokuntobiloba100@gmail.com).
 I'm always open to conversations and great collaborations.
 
 ## 🌐 Socials:
@@ -20,8 +21,8 @@ I'm always open to conversations and great collaborations.
 
 # 📊 GitHub Stats:
 
-![](https://github-readme-stats.vercel.app/api?username=tiskae&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=tiskae&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api?username=tiskae&theme=dark&hide_border=false&include_all_commits=false&count_private=false)`<br/>`
+![](https://github-readme-streak-stats.herokuapp.com/?user=tiskae&theme=dark&hide_border=false)`<br/>`
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=tiskae&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
@@ -29,4 +30,3 @@ I'm always open to conversations and great collaborations.
 ![](https://github-profile-trophy.vercel.app/?username=tiskae&theme=solarized-dark&no-frame=false&no-bg=true&margin-w=4)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
