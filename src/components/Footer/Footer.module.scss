@@ -1,0 +1,152 @@
+@use "../../styles/abstracts/mixins" as m;
+
+.sectionFooter {
+  padding: 6rem;
+  background-color: var(--color-primary);
+  display: grid;
+  justify-items: center;
+  gap: 4rem;
+  grid-template-columns: 1fr max-content;
+  align-items: center;
+  font-size: 1.6rem;
+  background-image: url("/img/Page-Turner.svg");
+  background-size: cover;
+
+  @include m.respond(tab-land) {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+    font-size: 1.35rem;
+    text-align: center;
+    justify-items: center;
+    padding: 4rem;
+  }
+
+  @include m.respond(phone) {
+    padding: 1.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+.footerTexts {
+  color: #dcebf8;
+  font-style: italic;
+  justify-self: end;
+  display: grid;
+  gap: 0.8rem;
+
+  span {
+    color: var(--color-secondary);
+  }
+}
+
+.footerIconBox {
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+
+  svg {
+    height: 11rem;
+    width: 18rem;
+
+    @include m.respond(phone) {
+      height: 4rem;
+      width: 7rem;
+    }
+  }
+}
+
+.footerQuote {
+  color: #618fb9;
+}
+
+.sayHi {
+  color: var(--color-secondary);
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+
+  &::after {
+    content: "";
+    height: 0.2rem;
+    width: 100%;
+    background-color: var(--color-primary-light);
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    transition: all 0.2s;
+  }
+
+  &:hover::after {
+    height: 1rem;
+    opacity: 0.7;
+  }
+}
+
+.footerFinals {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.4rem;
+  display: grid;
+  justify-items: center;
+
+  @include m.respond(phone) {
+    font-size: 1.1rem;
+  }
+}
+
+.footerAuthor {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+  p {
+    color: #8aaecf;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+    span {
+      animation: animateColor 3s infinite;
+    }
+  }
+}
+
+@keyframes animateColor {
+  0% {
+    color: var(--color-white);
+  }
+  50% {
+    color: var(--color-secondary);
+  }
+  100% {
+    color: var(--color-white);
+  }
+}
+
+.copyright {
+  color: #8aaecf;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.nigeriaFlag {
+  height: 1.8rem;
+  margin: 0 1rem;
+  width: 3.3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+.flagPart {
+  background-color: green;
+
+  &White {
+    background-color: white;
+  }
+}

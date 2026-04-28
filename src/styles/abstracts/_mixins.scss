@@ -1,0 +1,25 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == desktop {
+    @media only screen and (min-width: 75em) { @content; } // 1200px
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 62.5em) { @content; } // 1000px
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 42em) { @content; } // 672px
+  }
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 33em) { @content; } // 528px
+  }
+}
+
+@mixin flexWrapCenter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@mixin gridCenter {
+  display: grid;
+  justify-items: center;
+}

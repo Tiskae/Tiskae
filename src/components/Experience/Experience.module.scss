@@ -1,0 +1,133 @@
+@use "../../styles/abstracts/mixins" as m;
+
+.sectionExperiences {
+  padding: 4rem 3rem;
+  background-image: url("/img/endless-constellation.svg");
+  display: grid;
+  justify-items: center;
+  gap: 4rem;
+
+  @include m.respond(phone) {
+    padding: 3rem 0;
+    background-color: var(--color-primary-light);
+    background-image: none;
+    gap: 2rem;
+  }
+}
+
+.experiences {
+  justify-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.7rem;
+
+  @include m.respond(phone) {
+    gap: 1.5rem;
+  }
+}
+
+.experience {
+  max-width: 50rem;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: var(--color-primary-light);
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 2rem;
+  border: 2px solid rgba(70, 130, 180, 0.4);
+  animation: animateBorderUniform 2s alternate infinite;
+
+  @include m.respond(phone) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    padding: 2rem 3rem;
+    background-color: transparent;
+    border: none;
+  }
+
+  &:nth-child(1) {
+    animation-delay: 0s;
+  }
+  &:nth-child(2) {
+    animation-delay: 4s;
+  }
+  &:nth-child(3) {
+    animation-delay: 2s;
+  }
+  &:nth-child(4) {
+    animation-delay: 6s;
+  }
+}
+
+@keyframes animateBorderUniform {
+  0% {
+    border-color: rgba(70, 130, 180, 0.1);
+  }
+  100% {
+    border-color: rgba(70, 130, 180, 0.7);
+  }
+}
+
+.logoLink {
+  grid-column: 1 / 1;
+  grid-row: 1 / 2;
+  height: 4rem;
+  width: 4rem;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  object-fit: cover;
+}
+
+.headings {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.company {
+  font-size: 1.2rem;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: none;
+}
+
+.title {
+  font-size: 1.4rem;
+  text-transform: none;
+  color: var(--color-secondary);
+}
+
+.duration {
+  font-size: 1.1rem;
+}
+
+.details {
+  grid-column: 2;
+  grid-row: 2;
+  list-style: none;
+  display: grid;
+  align-content: flex-start;
+  gap: 1rem;
+  font-size: 1.3rem;
+
+  li {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 4px;
+      left: -15px;
+      content: "";
+      height: 10px;
+      width: 10px;
+      border: 2px solid var(--color-secondary-light);
+      border-radius: 50%;
+    }
+  }
+}

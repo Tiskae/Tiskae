@@ -1,0 +1,104 @@
+@use "../../styles/abstracts/mixins" as m;
+
+.sectionSkills {
+  padding: 4rem 2rem;
+  background-color: var(--color-primary);
+  background-image: url("/img/Tortoise-Shell.svg");
+  display: grid;
+  justify-items: center;
+  gap: 4rem;
+
+  h2 {
+    text-align: center;
+  }
+
+  @include m.respond(tab-port) {
+    background-color: var(--color-primary-light);
+    background-image: none;
+  }
+
+  @include m.respond(phone) {
+    padding-top: 4rem;
+  }
+}
+
+.skillBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.7rem;
+  padding: 0 5rem;
+
+  @include m.respond(tab-land) {
+    padding: 0;
+  }
+
+  @include m.respond(phone) {
+    padding: 0;
+    gap: 1.5rem;
+  }
+}
+
+.skillBox {
+  background-color: var(--color-primary-light);
+  width: 160px;
+  padding: 2.3rem 1.2rem;
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  border-top-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  border: 0.15rem solid var(--color-primary-light);
+  transition: all 0.2s;
+
+  @include m.respond(tab-land) {
+    width: 15rem;
+    padding: 2rem;
+    gap: 0.5rem;
+    border-top-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+  }
+
+  @include m.respond(tab-port) {
+    background-color: var(--color-primary);
+    width: 13rem;
+    padding: 2rem;
+    gap: 0.5rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+
+  @include m.respond(phone) {
+    width: 10rem;
+  }
+
+  &:hover {
+    transform: translateY(-1rem);
+    border-color: var(--color-secondary);
+  }
+
+  svg {
+    height: 5.5rem;
+    width: 5.5rem;
+
+    @include m.respond(tab-port) {
+      height: 5rem;
+      width: 5rem;
+    }
+
+    @include m.respond(phone) {
+      height: 3.5rem;
+      width: 3.5rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: none;
+
+    @include m.respond(tab-port) {
+      font-size: 1rem;
+    }
+  }
+}

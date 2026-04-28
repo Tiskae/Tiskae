@@ -1,0 +1,87 @@
+@use "../../styles/abstracts/mixins" as m;
+
+.loader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: var(--color-primary);
+  background-image: url("/img/Rose-Petals.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  animation: fadeOut 1s 2s forwards;
+}
+
+.loaderBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  transform: rotate(45deg);
+}
+
+.loaderBoxItem {
+  width: 7vw;
+  height: 7vw;
+  min-width: 4rem;
+  min-height: 4rem;
+  background-color: var(--color-secondary);
+  animation: fadeInOut 1s infinite;
+
+  &:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  &:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  &:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  &:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  &:nth-child(5) {
+    animation-delay: 0.3s;
+  }
+  &:nth-child(6) {
+    animation-delay: 0.2s;
+  }
+  &:nth-child(7) {
+    animation-delay: 0.3s;
+  }
+  &:nth-child(8) {
+    animation-delay: 0.2s;
+  }
+  &:nth-child(9) {
+    animation-delay: 0.1s;
+  }
+}
+
+// Loader container — slides away
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+@include m.respond(phone) {
+  @keyframes fadeOut {
+    100% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+  }
+}
+
+// Loader items — scale pulse
+@keyframes fadeInOut {
+  50% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
