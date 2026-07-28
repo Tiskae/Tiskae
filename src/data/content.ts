@@ -216,8 +216,8 @@ export const projects: Project[] = [
     ],
     imageAlt: "Meridian Motors project preview",
     imageContain: true,
-    liveUrl: "https://meridian.tiskae.dev",
-    githubUrl: undefined,
+    liveUrl: "https://meridian-motors.netlify.app/",
+    githubUrl: "https://github.com/Tiskae/meridian-frontend",
     tags: ["Next.js", "GSAP", "Sanity CMS", "SASS"],
   },
   {
@@ -235,7 +235,7 @@ export const projects: Project[] = [
     ],
     imageAlt: "FitSit project preview",
     githubUrl: undefined,
-    liveUrl: "https://sudocool.netlify.app",
+    liveUrl: "https://fitsit.io/",
     tags: ["React", "Redux", "Node.js", "CSS"],
   },
   {
@@ -251,7 +251,7 @@ export const projects: Project[] = [
     ],
     imageAlt: "Entre Blog project preview",
     githubUrl: undefined,
-    liveUrl: "https://quizzaly.netlify.app",
+    liveUrl: "https://joinentre.com/learning/blog",
     tags: ["Next.js", "TypeScript", "Contentful CMS", "SASS"],
   },
   {
@@ -268,7 +268,7 @@ export const projects: Project[] = [
     ],
     imageAlt: "iHealth and Wellness Foundation project preview",
     githubUrl: undefined,
-    liveUrl: "https://zero8.netlify.app",
+    liveUrl: "https://www.ihealthwellness.org/",
     tags: ["React.js", "CSS", "Redux", "Git Submodules"],
   },
   {
@@ -285,7 +285,7 @@ export const projects: Project[] = [
     ],
     imageAlt: "Unimind Kidz project preview",
     githubUrl: undefined,
-    liveUrl: "https://calc-cgpa.netlify.app",
+    liveUrl: "https://unimindkidz.com/",
     tags: ["Next.js", "SASS", "PostgreSQL", "Redis"],
   },
   {
